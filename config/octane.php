@@ -129,6 +129,7 @@ return [
 
     'warm' => [
         ...Octane::defaultServicesToWarm(),
+        \App\Services\LessonService::class,
     ],
 
     'flush' => [
