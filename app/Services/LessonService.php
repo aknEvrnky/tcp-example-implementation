@@ -24,7 +24,6 @@ class LessonService
         ]);
 
         $result = curl_exec($this->ch);
-//        curl_close($this->ch);
 
         return json_decode($result, true);
     }

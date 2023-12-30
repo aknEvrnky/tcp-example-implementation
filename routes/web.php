@@ -109,4 +109,4 @@ Route::get('/execute-with-multi-curl', function () {
     return $elapsedTime;
 });
 
-Route::get('lessons', [LessonController::class, 'indexCoroutine']);
+Route::get('lessons', [LessonController::class, 'index']);
